@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="50dp">
+    <TableRow>
+
+        <TextView
+            android:layout_height="100dp"
+            android:width="100dp"
+            android:background="#FF0000" />
+
+        <TextView
+            android:background="#15FFE5"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:background="#81E837"
+            android:width="100dp"
+            android:layout_height="100dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#D5407C" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#FFEB3B"/>
+
+        <TextView
+            android:height="100dp"
+            android:layout_weight="1"
+            android:background="#460675"/>
+    </TableRow>
+<TableLayout
+    android:layout_marginTop="100dp"
+    android:layout_width="100dp"
+    android:layout_height="130dp">
+    <TableRow>
+
+        <Button
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/gridlayout"
+            android:textSize="34sp">
+        </Button>
+    </TableRow>
+   <TableRow>
+       <Button
+           android:id="@+id/linear"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="@string/linearlayout"
+           android:textSize="34sp">
+       </Button>
+   </TableRow>
+
+</TableLayout>
+</TableLayout>

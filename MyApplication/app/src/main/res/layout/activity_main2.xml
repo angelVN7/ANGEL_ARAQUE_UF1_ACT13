@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity2">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="323dp"
+        android:layout_height="384dp"
+        android:columnCount="3"
+        android:padding="50dp"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#BC1515"></TextView>
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#7DFF0D"></TextView>
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#7924B6"></TextView>
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="3"
+            android:layout_columnWeight="1"
+            android:background="#F1D73F"></TextView>
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            android:background="#1D14F1"></TextView>
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#B37575"></TextView>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="144dp"
+        android:layout_height="57dp"
+        android:text="@string/tablelayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout">
+
+    </Button>
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="141dp"
+        android:layout_height="56dp"
+        android:text="@string/linearlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toEndOf="@+id/boton1"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout">
+
+    </Button>
+</androidx.constraintlayout.widget.ConstraintLayout>
